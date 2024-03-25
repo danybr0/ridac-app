@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="impact_type" label="Impact Type" language="en" table="x_393895_ridac_ridac">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>impact_type</element>
+            <help/>
+            <hint/>
+            <label>Impact Type</label>
+            <language>en</language>
+            <name>x_393895_ridac_ridac</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-25 12:10:41</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Impact Type</sys_name>
+            <sys_package display_value="RIDAC" source="x_393895_ridac">588bdad347c10210a76ccd9bd36d439c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RIDAC">588bdad347c10210a76ccd9bd36d439c</sys_scope>
+            <sys_update_name>sys_documentation_x_393895_ridac_ridac_impact_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-25 12:20:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="dd262e1347050210a76ccd9bd36d432d" extends="task" label="RIDAC" max_length="40" name="x_393895_ridac_ridac" type="collection">
+        <element label="Business Impact" max_length="4000" name="business_impac0" type="string"/>
+        <element label="Business Impact" max_length="4000" name="business_impact" type="string"/>
+        <element label="Due Day Reason" max_length="4000" name="due_day_reason" type="string"/>
+        <element choice="1" label="Impact Type" max_length="40" name="impact_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scope" sequence="0" value="Scope"/>
+                <element inactive_on_update="false" label="Schedule" sequence="1" value="Schedule"/>
+                <element inactive_on_update="false" label="Budget" sequence="2" value="Budget"/>
+                <element inactive_on_update="false" label="Quality" sequence="3" value="Quality"/>
+                <element inactive_on_update="false" label="Architecture" sequence="4" value="Architecture"/>
+            </choice>
+        </element>
+        <element choice="1" label="RIDAC Type" max_length="40" name="ridac_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Risk" sequence="0" value="Risk"/>
+                <element inactive_on_update="false" label="Issue" sequence="1" value="Issue"/>
+                <element inactive_on_update="false" label="Decision" sequence="2" value="Decision"/>
+            </choice>
+        </element>
+    </element>
+</database>
