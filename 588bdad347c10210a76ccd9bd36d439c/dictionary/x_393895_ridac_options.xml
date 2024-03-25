@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5b96a65347050210a76ccd9bd36d43b7" extends="task" label="Options" max_length="40" name="x_393895_ridac_options" type="collection">
+        <element choice="3" label="CONS" max_length="40" name="cons" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scope" sequence="0" value="scope"/>
+                <element inactive_on_update="false" label="Schedule" sequence="1" value="schedule"/>
+                <element inactive_on_update="false" label="Quality" sequence="2" value="quality"/>
+                <element inactive_on_update="false" label="Budget" sequence="3" value="budget"/>
+                <element inactive_on_update="false" label="Architecure" sequence="4" value="architecure"/>
+            </choice>
+        </element>
+        <element choice="3" label="PROS" max_length="40" name="pros" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scope" sequence="0" value="scope"/>
+                <element inactive_on_update="false" label="Schedule" sequence="1" value="schedule"/>
+                <element inactive_on_update="false" label="Budget" sequence="2" value="budget"/>
+                <element inactive_on_update="false" label="Quality" sequence="3" value="quality"/>
+                <element inactive_on_update="false" label="Architecture" sequence="4" value="architecture"/>
+            </choice>
+        </element>
+        <element label="Recommendation" max_length="4000" name="recommendation" type="string"/>
+    </element>
+</database>
